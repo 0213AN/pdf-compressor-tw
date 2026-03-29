@@ -185,9 +185,32 @@ flowchart TD
 
 ---
 
-## 截圖
+## 使用示例截圖
 
-![示範截圖](assets/demo1.png)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/demo_dark1.png">
+  <source media="(prefers-color-scheme: light)" srcset="assets/demo1.png">
+  <img alt="示範截圖" src="assets/demo1.png" width="700">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/demo_dark2.png">
+  <source media="(prefers-color-scheme: light)" srcset="assets/demo2.png">
+  <img alt="示範截圖 2" src="assets/demo2.png" width="700">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/demo_dark3.png">
+  <source media="(prefers-color-scheme: light)" srcset="assets/demo3.png">
+  <img alt="示範截圖 3" src="assets/demo3.png" width="700">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/demo_dark4.png">
+  <source media="(prefers-color-scheme: light)" srcset="assets/demo4.png">
+  <img alt="示範截圖 4" src="assets/demo4.png" width="700">
+</picture>
+
 
 ---
 
