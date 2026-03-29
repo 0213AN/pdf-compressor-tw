@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-    name="run_compressor",    # pip install 時要打的名字
+    name="pdf_compressor",    
     version="1.0.0",               
     author="0213AN",
     py_modules=["pdf_compressor"], # 原始碼檔名
@@ -11,7 +11,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'run_compressor = pdf_compressor:main', 
+            'run_compressor = pdf_compressor:main',  #run的觸發詞
         ],
     },
 )
