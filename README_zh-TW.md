@@ -211,9 +211,12 @@ flowchart TD
   <img alt="示範截圖 4" src="assets/demo4.png" width="700">
 </picture>
 
+---
+## 意見回饋 (Feedback)
+
+遇到任何問題或有改進建議或心得，歡迎到 [匿名回饋牆](https://padlet.com/0213an109279/pdf-compressor-p72cjdtfmnaubvh5) 留下想法! (不須登入)
 
 ---
-
 ## 授權
 
 本專案採用 MIT License，開發初衷是為了幫助學生解決學習歷程檔案過大的問題，開放所有人自由使用、修改及散佈。
