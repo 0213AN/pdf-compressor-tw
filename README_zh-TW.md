@@ -24,25 +24,30 @@ pip install pymupdf pillow
 ---
 
 ## 安裝方式
+### 方法 A — 下載 `.exe`（Windows）
+不需要安裝Python或其他套件，前往 [Releases](https://github.com/0213AN/pdf-compressor-tw/releases) 頁面下載最新版本，直接執行即可。
 
-### 方法 A — 直接用 Python 執行
-適合熟悉CLI的使用者。
+### 方法 B — 手動下載原始碼安裝 (需裝Python，免 Git)
+在 GitHub 點擊 Code > Download ZIP 並解壓縮
+在解壓縮後的資料夾路徑開啟終端機，輸入：
 
 ```bash
-git clone https://github.com/0213AN/pdf-compressor-tw.git
-cd pdf-compressor-tw
-pip install pymupdf pillow
-python pdf_tool.py
+pip install .
 ```
-
-### 方法 B — 下載 `.exe`（Windows）
-不需要安裝Python，前往 [Releases](https://github.com/0213AN/pdf-compressor-tw/releases) 頁面下載最新版本，直接執行即可。
+安裝完成後，直接在終端機輸入以下指令即可啟動：
+```
+run_compressor
+```
 
 ### 方法 C — pip 安裝 
+請確保您的電腦已安裝 [Git](https://git-scm.com/downloads)
 ```bash
-pip install pdf-compressor-tw
+pip install git+https://github.com/0213AN/pdf-compressor-tw.git
 ```
-
+安裝完成後，直接在終端機輸入以下指令即可啟動：
+```
+run_compressor
+```
 ---
 
 ## 使用方式
@@ -182,7 +187,7 @@ flowchart TD
 
 ## 截圖
 
-![示範截圖](assets/demo.png)
+![示範截圖](assets/demo1.png)
 
 ---
 
